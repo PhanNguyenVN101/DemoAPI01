@@ -37,7 +37,7 @@ namespace PhanNguyen_DemoAPI.Controllers
             return Ok(_mapper.Map<PhanCongResponse>(result));
         }
 
-        [HttpPut("edit/{keyId}")]
+        [HttpPut("edit/{nhanvienId}&{duanId}")]
         public async Task<IActionResult> UpdatePhanCong(string nhanvienId, string duanId, PhanCongResponse model)
         {
             var temp = _mapper.Map<PhanCong>(model);

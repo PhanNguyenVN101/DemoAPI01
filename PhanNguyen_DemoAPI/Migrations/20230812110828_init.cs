@@ -80,7 +80,9 @@ namespace PhanNguyen_DemoAPI.Migrations
                 {
                     NhanVienId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     DuAnId = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    DeleteDate = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: true)
+                    DeleteDate = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: true),
+                    NgayBD = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false),
+                    NgayKT = table.Column<DateTimeOffset>(type: "datetimeoffset", nullable: false)
                 },
                 constraints: table =>
                 {

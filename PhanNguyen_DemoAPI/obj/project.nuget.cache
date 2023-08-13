@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RROW/yO05zNDItrmHW+GWFspDCJ5hRXobhZUSBvxBgIgHO6CJhm4ubq6/R0uj+gBZDa7zkjlqYQZlJVay6Fn4w==",
+  "dgSpecHash": "43GSQVUo1qpSeSmNTpNL+kGS4qtMx+yw973KdF5gRrLLdXvOmDt5VWGICyvTqhsYZKDLbLFDiWWNqZcZTugpEg==",
   "success": true,
-  "projectFilePath": "C:\\MonHoc\\AmazingTech_TT_BE\\Tuan03\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI.csproj",
+  "projectFilePath": "C:\\MonHoc\\AmazingTech_TT_BE\\GitHub\\DemoAPI01\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tandat\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\tandat\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

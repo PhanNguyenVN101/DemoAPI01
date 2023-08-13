@@ -7,7 +7,7 @@ namespace PhanNguyen_DemoAPI.Repositories
     {
         public async Task<IQueryable<DuAn>> GetDuAnsWithInclude()
         {
-            return _context.Set<DuAn>().Include(i => i.PhanCongs)
+            return _context.Set<DuAn>()
                 .Where(t => t.DeleteDate == null);
         }
 

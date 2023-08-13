@@ -7,7 +7,7 @@ namespace PhanNguyen_DemoAPI.Repositories
     {
         public async Task<IQueryable<NhanVien>> GetNhanViensWithInclude()
         {
-            return _context.Set<NhanVien>().Include(i => i.PhanCongs)
+            return _context.Set<NhanVien>().Include(i => i.BaoHiems)
                 .Where(t => t.DeleteDate == null);
         }
 

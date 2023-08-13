@@ -97,6 +97,12 @@ namespace PhanNguyen_DemoAPI.Migrations
                     b.Property<DateTimeOffset?>("DeleteDate")
                         .HasColumnType("datetimeoffset");
 
+                    b.Property<DateTimeOffset>("NgayBD")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<DateTimeOffset>("NgayKT")
+                        .HasColumnType("datetimeoffset");
+
                     b.HasKey("NhanVienId", "DuAnId");
 
                     b.HasIndex("DuAnId");

@@ -25,7 +25,7 @@ namespace PhanNguyen_DemoAPI.Controllers
         public async Task<IActionResult> GetPhongBans()
         {
             var result = await _PhongBanService.GetAllPhongBansAsync();
-            return Ok(_mapper.Map<List<PhongBanResponse>>(result));
+            return Ok(_mapper.Map<List<PhongBan>>(result));
         }
 
         [HttpPost("PhongBan")]

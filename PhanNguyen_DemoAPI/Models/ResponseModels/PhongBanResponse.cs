@@ -1,4 +1,6 @@
 ﻿
+using PhanNguyen_DemoAPI.Models;
+
 namespace PhanNguyen_DemoAPI.ResponseModels
 {
     public class PhongBanResponse

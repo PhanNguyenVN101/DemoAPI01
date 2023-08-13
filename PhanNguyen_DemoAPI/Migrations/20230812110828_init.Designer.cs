@@ -12,7 +12,7 @@ using PhanNguyen_DemoAPI.Data;
 namespace PhanNguyen_DemoAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230808122304_init")]
+    [Migration("20230812110828_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -97,6 +97,12 @@ namespace PhanNguyen_DemoAPI.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<DateTimeOffset?>("DeleteDate")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<DateTimeOffset>("NgayBD")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<DateTimeOffset>("NgayKT")
                         .HasColumnType("datetimeoffset");
 
                     b.HasKey("NhanVienId", "DuAnId");

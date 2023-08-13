@@ -11353,11 +11353,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MonHoc\\AmazingTech_TT_BE\\Tuan03\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI.csproj",
+      "projectUniqueName": "C:\\MonHoc\\AmazingTech_TT_BE\\GitHub\\DemoAPI01\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI.csproj",
       "projectName": "PhanNguyen_DemoAPI",
-      "projectPath": "C:\\MonHoc\\AmazingTech_TT_BE\\Tuan03\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI.csproj",
+      "projectPath": "C:\\MonHoc\\AmazingTech_TT_BE\\GitHub\\DemoAPI01\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI.csproj",
       "packagesPath": "C:\\Users\\tandat\\.nuget\\packages\\",
-      "outputPath": "C:\\MonHoc\\AmazingTech_TT_BE\\Tuan03\\PhanNguyen_DemoAPI\\PhanNguyen_DemoAPI\\obj\\",
+      "outputPath": "C:\\MonHoc\\AmazingTech_TT_BE\\GitHub\\DemoAPI01\\PhanNguyen_DemoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tandat\\AppData\\Roaming\\NuGet\\NuGet.Config",

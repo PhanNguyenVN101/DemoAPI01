@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.DotNet.Scaffolding.Shared.Messaging;
+using Microsoft.EntityFrameworkCore;
 using PhanNguyen_DemoAPI.Models;
 
 namespace PhanNguyen_DemoAPI.Repositories
@@ -7,7 +8,7 @@ namespace PhanNguyen_DemoAPI.Repositories
     {
         public async Task<IQueryable<PhongBan>> GetPhongBansWithInclude()
         {
-            return _context.Set<PhongBan>()
+            return _context.Set<PhongBan>().Include(i => i.NhanViens)
                 .Where(t => t.DeleteDate == null);
         }
 

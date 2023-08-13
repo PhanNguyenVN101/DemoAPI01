@@ -25,7 +25,7 @@ namespace PhanNguyen_DemoAPI.Controllers
         public async Task<IActionResult> GetNhanViens()
         {
             var result = await _NhanVienService.GetAllNhanViensAsync();
-            return Ok(_mapper.Map<List<NhanVienResponse>>(result));
+            return Ok(_mapper.Map<List<NhanVien>>(result));
         }
 
         [HttpPost("NhanVien")]
